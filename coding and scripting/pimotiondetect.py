@@ -7,8 +7,8 @@ import telepot
 import time
 
 motionState = False
-chat_id = 235384151
-bot = telepot.Bot('689129184:AAGWtTc9gq-8bDANMWUwVbM4JrpH0c_wtYw')
+chat_id = "id of telegram user"
+bot = telepot.Bot('"BOT\'S TOKEN GOES HERE"')
 
 while True:
     motionState = P3picam.motion()
