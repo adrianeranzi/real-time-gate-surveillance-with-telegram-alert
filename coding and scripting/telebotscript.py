@@ -5,12 +5,12 @@
 import telepot
 import picamera
 
-chat_id = 235384151
-bot = telepot.Bot('689129184:AAGWtTc9gq-8bDANMWUwVbM4JrpH0c_wtYw')
+chat_id = "id of telegram user"
+bot = telepot.Bot('"BOT\'S TOKEN GOES HERE"')
 
 def handle(msg):
 
-    chat_id = 235384151
+    chat_id = "id of telegram user"
     command = msg['text']
 
     print('Got command: ' + str(command))
